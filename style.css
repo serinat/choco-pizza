@@ -3,8 +3,9 @@ html {
 }
 
 header {
-  display: inline-block;
-  justify-content: flex-end;
+  /*display: inline-block;
+  justify-content: flex-end;*/
+
 }
 
 body {
@@ -22,7 +23,9 @@ header p, h3 {
 
 header img {
   display: inline-block;
-  float: right;
+
+
+
 }
 
 .logo {
