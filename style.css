@@ -26,12 +26,12 @@ header {
 
 .list1 {
   padding: 0px 0px 0px 10%;
-  list-style-type: square;
+  list-style-type: circle;
 }
 
 .list2 {
   padding: 0px 0px 0px 20%;
-  list-style-type: square;
+  list-style-type: circle;
 }
 
 header .flex-container{
