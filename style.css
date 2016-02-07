@@ -1,19 +1,20 @@
-html {
-
-}
-
 p {
   color: #656161;
 }
 
 header {
-  border-bottom: solid 5px;
+  border-bottom: solid grey 5px;
   padding-bottom: 30px;
 }
 
 .wrapper {
   margin: auto;
   max-width: 901px;
+}
+
+.content {
+  text-indent: 20px;
+  padding-bottom: 15px;
 }
 
 .container {
@@ -25,10 +26,12 @@ header {
 
 .list1 {
   padding: 0px 0px 0px 10%;
+  list-style-type: square;
 }
 
 .list2 {
   padding: 0px 0px 0px 20%;
+  list-style-type: square;
 }
 
 header .flex-container{
@@ -44,11 +47,13 @@ header p, h3 {
 header img {
   display: inline-block;
   float: right;
+  padding: 2px;
 }
 
 .logo {
   display: inline-block;
   float: left;
+  padding-right: 10px;
 }
 
 .list {
@@ -59,9 +64,10 @@ header img {
   float: right;
 }
 
-footer {
-  border-top: solid 5px;
+.footer {
+  border-top: solid grey 5px;
   max-width: 901px;
+  padding-top: 20px;
 }
 
 button {
@@ -71,8 +77,4 @@ button {
 
 .subfooter {
   text-align: center;
-}
-
-footer p h3 img {
-  display: inline-block;
 }
