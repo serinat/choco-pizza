@@ -7,10 +7,6 @@ p {
 }
 
 header {
-<<<<<<< HEAD
-  /*display: inline-block;
-  justify-content: flex-end;*/
-=======
   border-bottom: solid 5px;
   padding-bottom: 30px;
 }
@@ -18,8 +14,6 @@ header {
 .wrapper {
   margin: auto;
   max-width: 901px;
->>>>>>> 1e3a2970af276406c1eee7f6ab30aa036de7f9a0
-
 }
 
 .container {
@@ -49,9 +43,7 @@ header p, h3 {
 
 header img {
   display: inline-block;
-
-
-
+  float: right;
 }
 
 .logo {
