@@ -3,16 +3,34 @@ html {
 }
 
 header {
+  border-bottom: solid 5px;
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 901px;
+
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  background: url(resources/list-bg.png);
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.list1 {
+  padding: 0px 0px 0px 10%;
+}
+
+.list2 {
+  padding: 0px 0px 0px 20%;
+}
+
+header .flex-container{
   display: inline-block;
   justify-content: flex-end;
-}
-
-body {
-
-}
-
-section {
-
 }
 
 header p, h3 {
@@ -31,13 +49,27 @@ header img {
 }
 
 .list {
-
+  display: inline-block;
 }
 
-#list1 {
-float: left;
+.print {
+  float: right;
 }
 
-#list2 {
-float: right;
+footer {
+  border-top: solid 5px;
+  max-width: 901px;
+}
+
+button {
+  float: right;
+  margin-top: 3%;
+}
+
+.subfooter {
+  text-align: center;
+}
+
+footer p h3 img {
+  display: inline-block;
 }
