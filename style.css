@@ -2,6 +2,10 @@ html {
 
 }
 
+p {
+  color: #656161;
+}
+
 header {
   border-bottom: solid 5px;
   padding-bottom: 30px;
