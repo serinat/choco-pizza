@@ -1,9 +1,14 @@
-p {
+p, .author, .container {
   color: #656161;
 }
 
+.best {
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
 header {
-  border-bottom: solid grey 5px;
+  border-bottom: solid lightgrey 5px;
   padding-bottom: 30px;
 }
 
@@ -42,6 +47,7 @@ header .flex-container{
 header p, h3 {
   display: inline-block;
   margin: 0;
+  font-family: cursive;
 }
 
 header img {
@@ -61,11 +67,12 @@ header img {
 }
 
 .print {
-  float: right;
+  /*float: right;*/
+  text-align: right;
 }
 
 .footer {
-  border-top: solid grey 5px;
+  border-top: solid lightgrey 5px;
   max-width: 901px;
   padding-top: 20px;
 }
@@ -77,4 +84,18 @@ button {
 
 .subfooter {
   text-align: center;
+}
+
+footer hr:after {
+    background: url("resources/small-logo.png") no-repeat top center;
+    content: "";
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -15px;
+}
+
+footer hr{
+  border-top: 1px solid rgba(156, 156, 156, .3);
+  height: 0px;
 }
